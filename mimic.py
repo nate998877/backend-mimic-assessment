@@ -43,6 +43,8 @@ columns, so the output looks better.
 
 """
 
+#I'm to lazy to do anthing else 
+
 import random
 import sys
 import re
@@ -72,7 +74,17 @@ def mimic_dict(filename):
 
 
 
-    f.close()
+    f.close()Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (9/9), 56.56 KiB | 56.56 MiB/s, done.
+Total 9 (delta 0), reused 7 (delta 0)
+To github.com:nate998877/backend-mimic-assessment.git
+ * [new branch]      master -> master
+(base) nate@debian:/mnt/Files/Programming/School_Project/Q3/mimic$ git checkout -b dev
+Switched to a new branch 'dev'
+(base) nate@debian:/mnt/Files/Programming/School_Project/Q3/mimic$ 
 
     return mimic_dict
 
